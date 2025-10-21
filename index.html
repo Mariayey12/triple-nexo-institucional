@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triple Nexo - Versión Institucional 2025 | Corporación para el Desarrollo</title>
+  <meta name="description" content="Corporación Triple Nexo - Comprometidos con la paz, el desarrollo sostenible y la cooperación humanitaria. Construimos futuro desde la solidaridad.">
+  <meta name="keywords" content="corporación, desarrollo sostenible, cooperación, paz, humanitario, Triple Nexo">
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+ </head>
+ <body><!-- Header Institucional -->
+ <!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="nav-container">
+    <!-- LOGO -->
+    <a href="#inicio" class="logo">
+      <img src="./img/logo_triple.png" alt="Logo Triple Nexo" title="Logo Triple Nexo">
+   
+    </a>
+
+    <!-- NAV MENU -->
+    <nav class="nav-menu" id="navMenu">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#programas">Programas</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- ACTION BUTTONS -->
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle">ES / EN</button>
+      <a href="#" class="portal-btn">Portal</a>
+      <a href="#" class="login-btn" id="openLoginModal">login </a>
+      <a href="#" class="register-btn" id="openRegisterModal">Register</a>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-toggle" id="mobileToggle" title="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MODAL INICIAR SESIÓN ===== -->
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <span class="close-btn" data-close="loginModal">&times;</span>
+    <h2>Iniciar Sesión</h2>
+    <form class="modal-form">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" placeholder="********" required>
+      <button type="submit" class="btn-primary">Entrar</button>
+    </form>
+    <p class="modal-text">¿No tienes cuenta? <a href="#" id="switchToRegister">Regístrate aquí</a></p>
+  </div>
+</div>
+
+<!-- ===== MODAL REGISTRO ===== -->
+<div class="modal" id="registerModal">
+  <div class="modal-content">
+    <span class="close-btn" data-close="registerModal">&times;</span>
+    <h2>Crear Cuenta</h2>
+    <form class="modal-form">
+      <label for="name">Nombre completo</label>
+      <input type="text" id="name" placeholder="Tu nombre" required>
+      <label for="emailRegister">Correo electrónico</label>
+      <input type="email" id="emailRegister" placeholder="ejemplo@correo.com" required>
+      <label for="passwordRegister">Contraseña</label>
+      <input type="password" id="passwordRegister" placeholder="********" required>
+      <button type="submit" class="btn-primary">Registrarme</button>
+    </form>
+    <p class="modal-text">¿Ya tienes una cuenta? <a href="#" id="switchToLogin">Inicia sesión</a></p>
+  </div>
+</div>
+<!-- ===== MAIN CONTENT ===== -->
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="hero">
+   <div class="hero-content fade-in">
+    <br> <br>
+    <div class="hero-badge">
+     🤝 Para Cada Familia, Para Cada Sueño
+    </div>
+    <h1 class="hero-title" id="hero-title">Juntos transformamos vidas y construimos esperanza</h1>
+    <p class="hero-subtitle" id="hero-subtitle">Para cada familia que necesita apoyo, cada niño que sueña con un futuro mejor, cada comunidad que busca prosperidad</p>
+    <div class="hero-message" id="hero-message"><span class="message-icon">💙</span>
+     <p>Tu historia de superación comienza aquí. No estás solo en este camino hacia un futuro lleno de oportunidades.</p>
+    </div>
+    <div class="hero-actions"><a href="#nosotros" class="btn-primary"> <span>Conócenos</span> <span>→</span> </a> <a href="#contacto" class="btn-primary btn-secondary"> <span>Contáctanos</span> <span>✉️</span> </a>
+    </div>
+   </div>
+  </section><!-- Sobre Nosotros -->
+  <section id="nosotros" class="about">
+   <div class="container">
+    <div class="section-header"><span class="section-badge">Nosotros</span>
+     <h2 class="section-title" id="mission-title">Nuestra Esencia</h2>
+     <p class="section-subtitle">Somos una corporación comprometida con la transformación social, trabajando incansablemente por la paz, el desarrollo sostenible y la dignidad humana.</p>
+    </div>
+    <div class="about-grid">
+     <div class="about-content">
+      <h3>Misión y Visión Institucional</h3>
+      <p><strong>Misión:</strong> Promover el desarrollo sostenible y la paz a través de programas integrales que fortalezcan las capacidades comunitarias, fomenten la cooperación internacional y generen impacto positivo duradero en las poblaciones más vulnerables.</p>
+      <p><strong>Visión:</strong> Ser la organización líder en América Latina en la implementación de soluciones innovadoras para el desarrollo humano, reconocida por nuestra excelencia, transparencia y compromiso inquebrantable con la justicia social.</p>
+      <div class="values-grid">
+       <div class="value-item">
+        <div class="value-icon">
+         🤝
+        </div>
+        <div class="value-title">
+         Solidaridad
+        </div>
+        <div class="value-text">
+         Compromiso genuino con el bienestar colectivo
+        </div>
+       </div>
+       <div class="value-item">
+        <div class="value-icon">
+         🌱
+        </div>
+        <div class="value-title">
+         Sostenibilidad
+        </div>
+        <div class="value-text">
+         Desarrollo responsable para las futuras generaciones
+        </div>
+       </div>
+       <div class="value-item">
+        <div class="value-icon">
+         ⚖️
+        </div>
+        <div class="value-title">
+         Transparencia
+        </div>
+        <div class="value-text">
+         Gestión ética y rendición de cuentas
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="about-visual">
+      <div style="text-align: center;">
+       <div style="font-size: 3rem; margin-bottom: 1rem;">
+        🌍
+       </div>
+       <div>
+        Impacto Global
+       </div>
+       <div style="font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem;">
+        Transformando Comunidades
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+ </section><!-- Servicios -->
+<section id="servicios" class="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-badge">Servicios</span>
+      <h2 class="section-title" id="services-title">Nuestros Servicios</h2>
+      <p class="section-subtitle">
+        Ofrecemos servicios integrales diseñados para atender las necesidades específicas de cada comunidad, brindando soluciones efectivas y sostenibles.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3 class="service-title">Asistencia Humanitaria</h3>
+        <p class="service-description">
+          Apoyo integral a familias en situación de vulnerabilidad con alimentos, refugio temporal, atención médica básica y acompañamiento psicosocial.
+        </p>
+        <ul class="service-features">
+          <li>✓ Kits de emergencia</li>
+          <li>✓ Alojamiento temporal</li>
+          <li>✓ Atención médica</li>
+          <li>✓ Apoyo psicológico</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Solicitar Ayuda</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🎓</div>
+        <h3 class="service-title">Formación y Capacitación</h3>
+        <p class="service-description">
+          Programas educativos y de capacitación técnica para el desarrollo de habilidades laborales y emprendimiento comunitario.
+        </p>
+        <ul class="service-features">
+          <li>✓ Cursos técnicos</li>
+          <li>✓ Alfabetización digital</li>
+          <li>✓ Emprendimiento</li>
+          <li>✓ Certificaciones</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Inscribirse</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💼</div>
+        <h3 class="service-title">Desarrollo Económico</h3>
+        <p class="service-description">
+          Impulso a proyectos productivos locales, microcréditos, asesoría empresarial y fortalecimiento de cadenas de valor comunitarias.
+        </p>
+        <ul class="service-features">
+          <li>✓ Microcréditos</li>
+          <li>✓ Asesoría empresarial</li>
+          <li>✓ Proyectos productivos</li>
+          <li>✓ Comercialización</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Consultar</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🌱</div>
+        <h3 class="service-title">Sostenibilidad Ambiental</h3>
+        <p class="service-description">
+          Implementación de prácticas ambientales sostenibles, agricultura ecológica y proyectos de conservación de recursos naturales.
+        </p>
+        <ul class="service-features">
+          <li>✓ Agricultura ecológica</li>
+          <li>✓ Conservación</li>
+          <li>✓ Energías renovables</li>
+          <li>✓ Gestión de residuos</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Participar</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🤝</div>
+        <h3 class="service-title">Fortalecimiento Social</h3>
+        <p class="service-description">
+          Construcción de tejido social, resolución de conflictos, promoción de derechos humanos y participación ciudadana activa.
+        </p>
+        <ul class="service-features">
+          <li>✓ Mediación de conflictos</li>
+          <li>✓ Derechos humanos</li>
+          <li>✓ Participación ciudadana</li>
+          <li>✓ Liderazgo comunitario</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Conocer Más</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🏥</div>
+        <h3 class="service-title">Salud Comunitaria</h3>
+        <p class="service-description">
+          Programas de salud preventiva, brigadas médicas, educación sanitaria y fortalecimiento de sistemas de salud locales.
+        </p>
+        <ul class="service-features">
+          <li>✓ Brigadas médicas</li>
+          <li>✓ Salud preventiva</li>
+          <li>✓ Educación sanitaria</li>
+          <li>✓ Nutrición infantil</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Acceder</a>
+      </div>
+
+      <!-- NUEVA CARD: Emergencias y Desastres -->
+      <div class="service-card">
+        <div class="service-icon">🚨</div>
+        <h3 class="service-title">Emergencias y Desastres</h3>
+        <p class="service-description">
+          Equipo especializado en gestión de desastres y respuesta rápida para atender situaciones de emergencia, brindando apoyo inmediato a las comunidades afectadas.
+        </p>
+        <ul class="service-features">
+          <li>✓ Evaluación de daños</li>
+          <li>✓ Coordinación logística</li>
+          <li>✓ Distribución de ayuda</li>
+          <li>✓ Rehabilitación post-desastre</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Reportar Emergencia</a>
+      </div>
+
+      <!-- NUEVA CARD: Salud Mental y Bienestar -->
+      <div class="service-card">
+        <div class="service-icon">🧠</div>
+        <h3 class="service-title">Salud Mental y Bienestar</h3>
+        <p class="service-description">
+          Programas de salud mental y bienestar emocional para individuos y comunidades, promoviendo la resiliencia y el autocuidado en contextos de vulnerabilidad.
+        </p>
+        <ul class="service-features">
+          <li>✓ Terapia individual y grupal</li>
+          <li>✓ Talleres de resiliencia</li>
+          <li>✓ Apoyo a víctimas de trauma</li>
+          <li>✓ Promoción del bienestar</li>
+        </ul>
+        <a href="#contacto" class="service-btn">Solicitar Apoyo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </section><!-- Programas y Proyectos -->
+  <section id="programas" class="programs">
+   <div class="container">
+    <div class="section-header"><span class="section-badge">Programas</span>
+     <h2 class="section-title" id="programs-title">Programas y Proyectos</h2>
+     <p class="section-subtitle">Desarrollamos programas integrales que abordan las necesidades más urgentes de nuestras comunidades, generando cambios sostenibles y duraderos a través de proyectos innovadores.</p>
+    </div>
+    <div class="programs-grid">
+     <div class="program-card">
+      <div class="program-header">
+       <div class="program-icon">
+        🌱
+       </div>
+       <div class="program-category">
+        Desarrollo
+       </div>
+      </div>
+      <h3 class="program-title">Desarrollo Sostenible</h3>
+      <p class="program-description">Implementamos proyectos de desarrollo económico local, agricultura sostenible y gestión ambiental que fortalecen las capacidades productivas de las comunidades rurales y urbanas.</p>
+      <div class="program-stats">
+       <div class="stat-item"><span class="stat-number">85</span> <span class="stat-label">Proyectos</span>
+       </div>
+       <div class="stat-item"><span class="stat-number">15K</span> <span class="stat-label">Beneficiarios</span>
+       </div>
+      </div><a href="#" class="program-link">Ver Proyectos →</a>
+     </div>
+     <div class="program-card">
+      <div class="program-header">
+       <div class="program-icon">
+        📚
+       </div>
+       <div class="program-category">
+        Educación
+       </div>
+      </div>
+      <h3 class="program-title">Educación y Cultura</h3>
+      <p class="program-description">Promovemos el acceso a educación de calidad, programas de formación técnica y preservación del patrimonio cultural, construyendo bases sólidas para el desarrollo humano integral.</p>
+      <div class="program-stats">
+       <div class="stat-item"><span class="stat-number">42</span> <span class="stat-label">Proyectos</span>
+       </div>
+       <div class="stat-item"><span class="stat-number">8K</span> <span class="stat-label">Estudiantes</span>
+       </div>
+      </div><a href="#" class="program-link">Ver Proyectos →</a>
+     </div>
+     <div class="program-card">
+      <div class="program-header">
+       <div class="program-icon">
+        ❤️
+       </div>
+       <div class="program-category">
+        Humanitario
+       </div>
+      </div>
+      <h3 class="program-title">Apoyo Humanitario</h3>
+      <p class="program-description">Brindamos asistencia integral a poblaciones en situación de vulnerabilidad, incluyendo atención a migrantes, víctimas de conflicto y comunidades afectadas por desastres naturales.</p>
+      <div class="program-stats">
+       <div class="stat-item"><span class="stat-number">23</span> <span class="stat-label">Proyectos</span>
+       </div>
+       <div class="stat-item"><span class="stat-number">2K</span> <span class="stat-label">Familias</span>
+       </div>
+      </div><a href="#" class="program-link">Ver Proyectos →</a>
+     </div>
+    </div><!-- Proyectos Destacados -->
+    <div class="featured-projects">
+     <h3 class="featured-title">Proyectos Destacados</h3>
+     <div class="projects-carousel">
+      <div class="project-slide active">
+       <div class="project-image">
+        <div class="project-placeholder">
+         🏘️
+        </div>
+       </div>
+       <div class="project-content"><span class="project-category">Desarrollo Comunitario</span>
+        <h4 class="project-title">Comunidades Resilientes</h4>
+        <p class="project-description">Fortalecimiento de capacidades locales para la gestión sostenible de recursos naturales en 15 comunidades rurales de Colombia.</p>
+        <div class="project-meta"><span class="project-location">📍 Cauca, Colombia</span> <span class="project-duration">⏱️ 2023-2025</span>
+        </div>
+       </div>
+      </div>
+      <div class="project-slide">
+       <div class="project-image">
+        <div class="project-placeholder">
+         🎓
+        </div>
+       </div>
+       <div class="project-content"><span class="project-category">Educación</span>
+        <h4 class="project-title">Futuro Digital</h4>
+        <p class="project-description">Programa de alfabetización digital para jóvenes en situación de vulnerabilidad, brindando herramientas tecnológicas para el empleo.</p>
+        <div class="project-meta"><span class="project-location">📍 Bogotá, Colombia</span> <span class="project-duration">⏱️ 2024-2026</span>
+        </div>
+       </div>
+      </div>
+      <div class="project-slide">
+       <div class="project-image">
+        <div class="project-placeholder">
+         🏥
+        </div>
+       </div>
+       <div class="project-content"><span class="project-category">Salud</span>
+        <h4 class="project-title">Salud para Todos</h4>
+        <p class="project-description">Atención médica integral y programas de prevención para comunidades migrantes y desplazadas en la frontera colombo-venezolana.</p>
+        <div class="project-meta"><span class="project-location">📍 Norte de Santander</span> <span class="project-duration">⏱️ 2023-2024</span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="carousel-controls"><button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+      <div class="carousel-dots"><span class="dot active" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span>
+      </div><button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+     </div>
+    </div>
+   </div>
+  </section><!-- Indicadores de Impacto -->
+  <section class="indicators">
+   <div class="indicators-container">
+    <div class="indicators-content">
+     <div class="indicators-header">
+      <h2 class="indicators-title">Nuestro Impacto</h2>
+      <p class="indicators-subtitle">Resultados que transforman vidas y construyen esperanza</p>
+     </div>
+     <div class="indicators-grid">
+      <div class="indicator-item"><span class="indicator-number count-animation" id="beneficiaries-count">25,000+</span> <span class="indicator-label">Beneficiarios Atendidos</span>
+      </div>
+      <div class="indicator-item"><span class="indicator-number count-animation" id="projects-count">150+</span> <span class="indicator-label">Proyectos Activos</span>
+      </div>
+      <div class="indicator-item"><span class="indicator-number count-animation" id="partners-count">45+</span> <span class="indicator-label">Aliados Estratégicos</span>
+      </div>
+      <div class="indicator-item"><span class="indicator-number count-animation" id="experience-years">12+</span> <span class="indicator-label">Años de Experiencia</span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Testimonios -->
+  <section id="testimonios" class="testimonials">
+   <div class="container">
+    <div class="section-header"><span class="section-badge">Testimonios</span>
+     <h2 class="section-title" id="testimonials-title">Voces de Esperanza</h2>
+     <p class="section-subtitle">Las historias de transformación de nuestros beneficiarios son el motor que impulsa nuestro trabajo diario y nos recuerda por qué hacemos lo que hacemos.</p>
+    </div>
+    <div class="testimonials-grid">
+     <div class="testimonial-card">
+      <div class="testimonial-content">
+       <div class="quote-icon">
+        "
+       </div>
+       <p class="testimonial-text">"Gracias al programa de agricultura sostenible, nuestra comunidad ahora produce alimentos orgánicos que vendemos en mercados locales. Hemos triplicado nuestros ingresos y cuidamos el medio ambiente."</p>
+      </div>
+      <div class="testimonial-author">
+       <div class="author-avatar">
+        👩‍🌾
+       </div>
+       <div class="author-info">
+        <h4 class="author-name">María Elena Rodríguez</h4>
+        <p class="author-role">Líder Comunitaria - Cauca</p>
+        <div class="author-program">
+         Programa: Desarrollo Sostenible
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="testimonial-card">
+      <div class="testimonial-content">
+       <div class="quote-icon">
+        "
+       </div>
+       <p class="testimonial-text">"El curso de programación cambió mi vida. Ahora trabajo como desarrollador web y puedo mantener a mi familia. Triple Nexo me dio la oportunidad que necesitaba para salir adelante."</p>
+      </div>
+      <div class="testimonial-author">
+       <div class="author-avatar">
+        👨‍💻
+       </div>
+       <div class="author-info">
+        <h4 class="author-name">Carlos Andrés Morales</h4>
+        <p class="author-role">Beneficiario - Bogotá</p>
+        <div class="author-program">
+         Programa: Educación Digital
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="testimonial-card">
+      <div class="testimonial-content">
+       <div class="quote-icon">
+        "
+       </div>
+       <p class="testimonial-text">"Cuando llegamos a Colombia, no teníamos nada. El apoyo humanitario que recibimos nos ayudó a establecernos y ahora mis hijos van a la escuela. Estamos construyendo un nuevo futuro."</p>
+      </div>
+      <div class="testimonial-author">
+       <div class="author-avatar">
+        👩‍👧‍👦
+       </div>
+       <div class="author-info">
+        <h4 class="author-name">Yolanda Pérez</h4>
+        <p class="author-role">Migrante Venezolana - Cúcuta</p>
+        <div class="author-program">
+         Programa: Apoyo Humanitario
+        </div>
+       </div>
+      </div>
+     </div>
+    </div><!-- Video Testimonial -->
+    <div class="video-testimonial">
+     <div class="video-content">
+      <div class="video-placeholder">
+       <div class="play-button">
+        ▶️
+       </div>
+       <div class="video-info">
+        <h4>Historias de Transformación</h4>
+        <p>Conoce más testimonios de nuestros beneficiarios</p>
+       </div>
+      </div>
+     </div>
+     <div class="video-stats">
+      <div class="video-stat"><span class="stat-number">500+</span> <span class="stat-label">Historias Documentadas</span>
+      </div>
+      <div class="video-stat"><span class="stat-number">95%</span> <span class="stat-label">Satisfacción</span>
+      </div>
+      <div class="video-stat"><span class="stat-number">12</span> <span class="stat-label">Países</span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Aliados Estratégicos -->
+  <section id="aliados" class="partners">
+   <div class="container">
+    <div class="section-header"><span class="section-badge">Aliados</span>
+     <h2 class="section-title">Cooperación Internacional</h2>
+     <p class="section-subtitle">Trabajamos en alianza con organizaciones internacionales, gobiernos y sector privado para maximizar nuestro impacto social.</p>
+    </div>
+    <div class="partners-carousel">
+     <div class="partners-track">
+      <div class="partner-logo">
+       🇺🇳 ONU
+      </div>
+      <div class="partner-logo">
+       USAID
+      </div>
+      <div class="partner-logo">
+       🏛️ ACNUR
+      </div>
+      <div class="partner-logo">
+       UNICEF
+      </div>
+      <div class="partner-logo">
+       🌍 OIM
+      </div>
+      <div class="partner-logo">
+       PNUD
+      </div>
+      <div class="partner-logo">
+       🇪🇺 UE
+      </div>
+      <div class="partner-logo">
+       AECID
+      </div><!-- Duplicados para efecto continuo -->
+      <div class="partner-logo">
+       🇺🇳 ONU
+      </div>
+      <div class="partner-logo">
+       USAID
+      </div>
+      <div class="partner-logo">
+       🏛️ ACNUR
+      </div>
+      <div class="partner-logo">
+       UNICEF
+      </div>
+      <div class="partner-logo">
+       🌍 OIM
+      </div>
+      <div class="partner-logo">
+       PNUD
+      </div>
+      <div class="partner-logo">
+       🇪🇺 UE
+      </div>
+      <div class="partner-logo">
+       AECID
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Call to Action -->
+  <section class="cta-section">
+   <div class="cta-container">
+    <div class="cta-content">
+     <div class="cta-icon">
+      🌟
+     </div>
+     <h2 class="cta-title" id="cta-title">Únete a Nuestra Misión</h2>
+     <p class="cta-subtitle" id="cta-subtitle">Juntos podemos crear un impacto duradero en las comunidades más necesitadas. Tu apoyo hace la diferencia.</p>
+     <div class="cta-options">
+      <div class="cta-option">
+       <div class="option-icon">
+        🤝
+       </div>
+       <h3>Voluntariado</h3>
+       <p>Comparte tu tiempo y habilidades con quienes más lo necesitan</p><a href="#contacto" class="cta-btn primary">Ser Voluntario</a>
+      </div>
+      <div class="cta-option">
+       <div class="option-icon">
+        💝
+       </div>
+       <h3>Donaciones</h3>
+       <p>Contribuye económicamente para ampliar nuestro alcance e impacto</p><a href="#contacto" class="cta-btn primary">Donar Ahora</a>
+      </div>
+      <div class="cta-option">
+       <div class="option-icon">
+        🏢
+       </div>
+       <h3>Alianzas</h3>
+       <p>Forma parte de nuestra red de organizaciones comprometidas</p><a href="#contacto" class="cta-btn secondary">Ser Aliado</a>
+      </div>
+     </div>
+     <div class="cta-stats">
+      <div class="cta-stat"><span class="stat-number">500+</span> <span class="stat-label">Voluntarios Activos</span>
+      </div>
+      <div class="cta-stat"><span class="stat-number">200+</span> <span class="stat-label">Donantes Regulares</span>
+      </div>
+      <div class="cta-stat"><span class="stat-number">50+</span> <span class="stat-label">Organizaciones Aliadas</span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Contacto -->
+  <section id="contacto" class="contact">
+   <div class="container">
+    <div class="section-header"><span class="section-badge">Contacto</span>
+     <h2 class="section-title" id="contact-title">Conectemos por un Futuro Mejor</h2>
+     <p class="section-subtitle">Estamos aquí para escucharte y trabajar juntos en la construcción de un mundo más justo y sostenible.</p>
+    </div>
+    <div class="contact-grid">
+     <div class="contact-info">
+      <div class="contact-item">
+       <div class="contact-icon">
+        📧
+       </div>
+       <div class="contact-text">
+        <div class="contact-label">
+         Correo Institucional
+        </div>
+        <div class="contact-value">
+         info@triplenexo.org
+        </div>
+       </div>
+      </div>
+      <div class="contact-item">
+       <div class="contact-icon">
+        📱
+       </div>
+       <div class="contact-text">
+        <div class="contact-label">
+         Teléfono Principal
+        </div>
+        <div class="contact-value">
+         +57 (1) 234-5678
+        </div>
+       </div>
+      </div>
+      <div class="contact-item">
+       <div class="contact-icon">
+        📍
+       </div>
+       <div class="contact-text">
+        <div class="contact-label">
+         Sede Principal
+        </div>
+        <div class="contact-value">
+         Bogotá, Colombia
+        </div>
+       </div>
+      </div>
+      <div class="contact-item">
+       <div class="contact-icon">
+        ⏰
+       </div>
+       <div class="contact-text">
+        <div class="contact-label">
+         Horario de Atención
+        </div>
+        <div class="contact-value">
+         Lun - Vie: 8:00 - 17:00
+        </div>
+       </div>
+      </div>
+     </div>
+     <form class="contact-form" id="contactForm">
+      <div class="form-group"><label for="name" class="form-label">Nombre Completo *</label> <input type="text" id="name" name="name" class="form-input" required>
+      </div>
+      <div class="form-group"><label for="email" class="form-label">Correo Electrónico *</label> <input type="email" id="email" name="email" class="form-input" required>
+      </div>
+      <div class="form-group"><label for="organization" class="form-label">Organización</label> <input type="text" id="organization" name="organization" class="form-input">
+      </div>
+      <div class="form-group"><label for="message" class="form-label">Mensaje *</label> <textarea id="message" name="message" class="form-input form-textarea" required placeholder="Cuéntanos cómo podemos colaborar..."></textarea>
+      </div><button type="submit" class="form-submit" id="submitBtn"> Enviar Mensaje </button>
+      <div id="formMessage"></div>
+     </form>
+    </div>
+   </div>
+ <!-- ======== Footer Institucional ======== -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Columna 1: Marca -->
+    <div class="footer-column">
+      <div class="footer-logo">
+        <img src="./img/logo_triple.png" alt="Logo Triple Nexo" title="Logo Triple Nexo">
+        <h3>Corporación <span>Triple Nexo</span></h3>
+      </div>
+      <p class="footer-description">
+        Comprometidos con la paz, el desarrollo sostenible y la cooperación humanitaria.
+        Transformamos vidas y construimos esperanza desde 2012.
+      </p>
+      <div class="social-links">
+        <a href="#" class="social-link" title="Facebook">📘</a>
+        <a href="#" class="social-link" title="Twitter">🐦</a>
+        <a href="#" class="social-link" title="LinkedIn">💼</a>
+        <a href="#" class="social-link" title="Instagram">📷</a>
+        <a href="#" class="social-link" title="YouTube">🎥</a>
+      </div>
+    </div>
+
+    <!-- Columna 2: Programas -->
+    <div class="footer-column">
+      <h4>Programas</h4>
+      <ul>
+        <li><a href="#">Desarrollo Sostenible</a></li>
+        <li><a href="#">Educación y Cultura</a></li>
+        <li><a href="#">Apoyo Humanitario</a></li>
+        <li><a href="#">Cooperación Internacional</a></li>
+        <li><a href="#">Investigación Social</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 3: Organización -->
+    <div class="footer-column">
+      <h4>Organización</h4>
+      <ul>
+        <li><a href="#">Quiénes Somos</a></li>
+        <li><a href="#">Equipo Directivo</a></li>
+        <li><a href="#">Transparencia</a></li>
+        <li><a href="#">Informes Anuales</a></li>
+        <li><a href="#">Trabaja con Nosotros</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 4: Contacto -->
+    <div class="footer-column">
+      <h4>Contáctanos</h4>
+      <ul class="footer-contact">
+        <li>📍 Medellín, Antioquia, Colombia</li>
+        <li>📞 +57 300 123 4567</li>
+        <li>✉️ contacto@triplenexo.org</li>
+      </ul>
+      <a href="#contacto" class="footer-btn">Escríbenos</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <strong>Corporación Triple Nexo</strong> – Todos los derechos reservados. | Versión Institucional 2025</p>
+  </div>
+</footer>
+
+  <script src="./JS/main.js"></script>
+</body>
+</html>

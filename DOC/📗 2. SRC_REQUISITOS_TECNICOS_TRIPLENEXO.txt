@@ -1,0 +1,92 @@
+Corporación Triple Nexo
+
+“Humanitario · Paz · Desarrollo”
+Documento de Requisitos Técnicos y Funcionales
+
+1️⃣ Temática General
+
+Diseño e implementación de una página web institucional moderna, accesible y sostenible, que refleje los valores de la Corporación Triple Nexo y fortalezca su presencia digital.
+
+2️⃣ Objetivo del Proyecto
+
+Crear una plataforma web administrable, transparente y moderna que promueva la paz, el desarrollo y la acción humanitaria, facilitando el acceso a información institucional y la comunicación con aliados.
+
+3️⃣ Público Objetivo
+
+Organismos internacionales y cooperantes (ONU, USAID, OIM).
+
+Comunidades beneficiarias y voluntarios.
+
+Aliados locales, entidades públicas y privadas.
+
+Donantes y medios de comunicación.
+
+4️⃣ Casos de Uso
+Código	Caso de Uso	Descripción
+CU-01	Visualizar información institucional	Un usuario accede a la web para conocer los programas y proyectos.
+CU-02	Enviar formulario de contacto	El visitante llena un formulario para comunicarse con la corporación.
+CU-03	Consultar aliados y cooperantes	Los usuarios revisan los aliados estratégicos de la organización.
+CU-04	Actualizar contenido (admin)	El administrador gestiona la información del sitio desde un panel.
+CU-05	Cambiar idioma	El visitante cambia entre español e inglés.
+5️⃣ Requisitos Funcionales
+
+Navegación intuitiva y responsive.
+
+Sección de programas, proyectos y aliados.
+
+Formulario de contacto en modal.
+
+Contadores animados (visitantes, proyectos, comunidades).
+
+Carrusel de aliados con logos.
+
+Sección de testimonios.
+
+Selector de idioma (ES/EN).
+
+Footer completo con redes y enlaces.
+
+6️⃣ Requisitos No Funcionales
+
+Accesibilidad conforme a WCAG 2.1 AA.
+
+Tiempos de carga menores a 2.5 segundos.
+
+Seguridad básica con HTTPS y validación de formularios.
+
+Código semántico y estructurado (HTML5, CSS3, JS limpio).
+
+Diseño coherente con identidad institucional.
+
+7️⃣ Requisitos Deseables
+
+CMS integrado (WordPress o Laravel).
+
+Integración con Google Analytics.
+
+Registro/Login de voluntarios.
+
+Noticias dinámicas y multilenguaje real.
+
+API REST para registro de proyectos.
+
+8️⃣ Oferta y Propuesta de Valor
+
+Triple Nexo Web 2025 conecta tecnología, desarrollo y propósito social.
+Una plataforma sólida, accesible y sostenible que promueve la acción humanitaria con impacto real.
+
+9️⃣ Levantamiento de Información
+
+Entrevistas con líderes de área.
+
+Revisión de informes y documentos institucionales.
+
+Recolección de activos visuales y contenido.
+
+Identificación de públicos clave y mapa de navegación.
+
+Firma:
+María Martínez
+Desarrolladora Web Full Stack / Ingeniera en Informática
+📧 mmariayennifer.25@gmail.com
+ | 📞 3136726232

@@ -1,0 +1,75 @@
+Corporación Triple Nexo
+
+“Humanitario · Paz · Desarrollo”
+Documento Técnico Institucional
+
+Resumen Ejecutivo
+
+La solución propuesta entrega una landing institucional moderna, accesible y administrable, que refleja la identidad de la Corporación Triple Nexo y promueve la transparencia, cooperación y acción social.
+
+Arquitectura Técnica
+
+Frontend: HTML5, CSS3, JavaScript (responsive y accesible).
+
+Backend sugerido: Laravel / PHP con panel de administración.
+
+Hosting: Servidor con SSL, base de datos MySQL y soporte PHP 8+.
+
+Componentes Principales
+
+Header con navegación y logotipo.
+
+Hero con imagen de comunidad.
+
+Sección “Sobre Nosotros” (misión y visión).
+
+Programas y proyectos destacados.
+
+Indicadores con contadores dinámicos.
+
+Carrusel de aliados institucionales.
+
+Testimonios de beneficiarios.
+
+Formulario de contacto en modal.
+
+Footer extendido con enlaces, redes y contacto.
+
+Seguridad y Accesibilidad
+
+Formularios con validación.
+
+Roles ARIA y etiquetas alt en imágenes.
+
+Colores con contraste alto (#0b5ed7 sobre fondo blanco).
+
+Diseño responsive (mobile-first).
+
+Plan de Mantenimiento
+
+Actualizaciones trimestrales.
+
+Copias de seguridad automáticas.
+
+Monitoreo de uptime y rendimiento.
+
+Capacitación anual a administradores.
+
+Cuadro de Cumplimiento de Criterios de Evaluación
+Criterio	Descripción	Cumplimiento
+Calidad técnica	Código limpio, modular, responsive y accesible.	✅ 100%
+Coherencia institucional	Diseño alineado a la identidad Triple Nexo.	✅ 100%
+Seguridad digital	Formularios validados, estructura escalable y HTTPS recomendado.	✅ 90%
+Sostenibilidad	Código optimizado, mantenimiento y escalabilidad.	✅ 95%
+
+Firma:
+María Martínez
+Desarrolladora Web Full Stack / Ingeniera en Informática
+📧 mmariayennifer.25@gmail.com
+ | 📞 3136726232
+📍 Corporación Triple Nexo – Humanitario · Paz · Desarrollo
+
+💬 Nota:
+El Plan de Mantenimiento se cotiza por separado del presupuesto base de $6.000.000 COP, 
+ya que implica un servicio anual de soporte técnico, supervisión de seguridad y actualización de contenidos, 
+cuyo valor dependerá del alcance y frecuencia de las intervenciones requeridas.

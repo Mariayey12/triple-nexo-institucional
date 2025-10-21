@@ -1,0 +1,43 @@
+Corporación Triple Nexo
+
+“Humanitario · Paz · Desarrollo”
+Presupuesto del Proyecto Web Institucional
+
+💰 Presupuesto Total Disponible
+
+$6.000.000 COP
+
+📊 Desglose de Costos
+Nº	Concepto	Descripción	Valor (COP)
+1	Diseño UX/UI institucional	Investigación, prototipado y diseño de interfaz accesible y moderna.	$1.000.000
+2	Maquetación Frontend (HTML, CSS, JS)	Implementación responsive y accesible de la web.	$1.200.000
+3	Implementación técnica (estructura backend)	Preparación de entorno Laravel / PHP / CMS administrable.	$900.000
+4	Pruebas de calidad (QA y optimización)	Pruebas funcionales, de rendimiento y accesibilidad.	$400.000
+5	Configuración de hosting y dominio	Implementación de SSL, estructura y despliegue.	$600.000
+6	Documentación técnica y entrega institucional	Elaboración de documentos técnicos y manuales.	$300.000
+7	Capacitación y soporte inicial	Sesión formativa de uso y mantenimiento básico.	$300.000
+8	Mantenimiento anual (opcional)	Actualizaciones, copias de seguridad y soporte técnico.	$1.300.000
+🕒 Cronograma (20 días laborales)
+Fase	Actividad	Duración
+1	Recolección y análisis de información	3 días
+2	Diseño UX/UI y prototipado	4 días
+3	Desarrollo Frontend	7 días
+4	Integración técnica y pruebas	3 días
+5	Entrega y capacitación	3 días
+🌱 Sostenibilidad y Recomendaciones
+
+Código ligero, modular y fácilmente mantenible.
+
+Uso de herramientas de código abierto (sin licencias costosas).
+
+Alojamiento sostenible y con certificado SSL activo.
+
+Posibilidad de ampliación del sitio en futuras fases.
+
+Entregado por:
+María Martínez
+Desarrolladora Web Full Stack / Ingeniera en Informática
+📧 mmariayennifer.25@gmail.com
+
+📞 3136726232
+📍 Corporación Triple Nexo – Humanitario · Paz · Desarrollo
