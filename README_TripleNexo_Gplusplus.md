@@ -103,7 +103,6 @@ Diseñar y desarrollar una **página web moderna y adaptable** que:
     ├── Cuadro_Comparativo_Hosting.pdf
     └── Wireframe_Figma.png
 
-
 ---
 
 ## 📊 Métricas (simuladas)
@@ -132,6 +131,7 @@ Diseñar y desarrollar una **página web moderna y adaptable** que:
 
 Incluye la descripción de arquitectura, requisitos funcionales, estructura visual y recomendaciones de implementación.
 
+
 📄 Archivo: `Documento_Tecnico_TripleNexo_Institucional.pdf`
 
 ---
@@ -146,16 +146,20 @@ Desarrollado como propuesta técnica inspirada en **ChariTeam (Free Nonprofit Te
 
 Entrega web institucional inspirada en ChariTeam, desarrollada como propuesta moderna, accesible y sostenible.
 
-Autor (a) Maria Yennifer Martinez
-Desarrolladora Web Full Stack e Ing en Informatica.
+ 🧩 Autor
+**María Martínez**  
+Desarrolladora Web Full Stack  
+Ingeniera en Informática  
+📧 <mmariayennifer.25@gmail.com>  
+📞 3136726232  
 
 **Incluye:**
 
 - Página principal (index.html)
-
 - CSS profesional (styles.css)
 - JavaScript funcional (script.js)
 - Imágenes institucionales y logos
+- Diseño en Figma: [text](https://www.figma.com/proto/4C1eq4VF1Q4E1t9lo8NB6a/triple-nexo-institucional?node-id=0-1&t=XTTOOWf1zp3EolOk-1)
 - Documento técnico PDF
 
 **Funciones:**
