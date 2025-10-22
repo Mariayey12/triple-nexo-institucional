@@ -155,7 +155,7 @@ Ingeniera en Informática
 
 **Incluye:**
 
-- Página principal (index.html)
+- Página principal (index.html) Link de Acceso : [text](https://bejewelled-naiad-692e40.netlify.app/)
 - CSS profesional (styles.css)
 - JavaScript funcional (script.js)
 - Imágenes institucionales y logos
